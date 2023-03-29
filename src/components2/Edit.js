@@ -24,7 +24,7 @@ useEffect(()=>{
   
   setTictet(ss.password); 
   
-},[]) 
+},[ss.email,ss.password]) 
 
 const jai2={ 
   email:emails,
