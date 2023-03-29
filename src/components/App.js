@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Page from './Page';
 import Add from './Add';
-import {   Routes, Route, json } from 'react-router-dom'; 
+import {   Routes, Route } from 'react-router-dom'; 
 import Save from './Save'; 
 import { useEffect, useState } from 'react';
 //import Data from '../data/newdata.js';
