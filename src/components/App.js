@@ -6,11 +6,10 @@ import Add from './Add';
 import {   Routes, Route } from 'react-router-dom'; 
 import Save from './Save'; 
 import { useEffect, useState } from 'react';
-//import Data from '../data/newdata.js';
+
 import View from './View'; 
 import { useNavigate } from 'react-router-dom'; 
 import Edit from './Edit';
-//import { Navbar } from 'react-bootstrap'; 
 
 function App() {  
  const [point,setPoint]=useState([]); 
