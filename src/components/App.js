@@ -11,8 +11,7 @@ import View from './View';
 import { useNavigate } from 'react-router-dom'; 
 import Edit from './Edit';
 //import { Navbar } from 'react-bootstrap'; 
-import Ground from '../components3/ground';
-import Price from '../components3/Price';
+
 function App() {  
  const [point,setPoint]=useState([]); 
  const [view,setView]=useState([]);  
@@ -118,8 +117,7 @@ history('/View')
          <Route exact path='/Edit' element={<Edit point={point} id={id} update={update}/>}/>
          
         <Route exact path='/View' element={<View view={view}/>}/> 
-        <Route exact path='/Ground' element={<Ground />}/> 
-        <Route exact path='/Price' element={<Price/>}/>
+        
         
       </Routes>
      
