@@ -7,7 +7,7 @@ import {   Routes, Route } from 'react-router-dom';
 import Save from './Save'; 
 import { useState ,useEffect} from 'react';
 
-import View from './View'; 
+import View1 from './View'; 
 import { useNavigate } from 'react-router-dom'; 
 import Edit from './Edit';
 
@@ -92,7 +92,7 @@ const Views=(el)=>{
 
 setView(el) 
  
-history('/View')
+history('/View1')
 }  
 
 return ( 
@@ -101,7 +101,7 @@ return (
          <Route path='/Add1' element={<Add point={point} adduser={adduser}/>}/>
          <Route path='/Save1' element={<Save Spoint={point} deletes={deletes} Views={Views} edit={edit} />}/> 
          <Route path='/Edit1' element={<Edit point={point} id={id} update={update}/>}/>
-         <Route path='/View1' element={<View view={view}/>}/>
+         <Route path='/View1' element={<View1 view={view}/>}/>
       </Routes>
       
     </div>

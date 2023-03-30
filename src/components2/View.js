@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
  import Base from "./Base"; 
  import './App.css'
- const View=({view})=>{  
+ const View1=({view})=>{  
     //console.log(props)  
     const history=useNavigate()
 return(  
@@ -25,4 +25,4 @@ return(
 
 
 } 
-export default View;
+export default View1;
