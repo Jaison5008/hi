@@ -108,19 +108,13 @@ history('/View')
 
   
   return ( 
-    <div>  
-      
     
-    
-      
-      
-      
       <Routes>  
 
         <Route exact path='/'  element={<Page/>}/>                                                       
         <Route exact  path='/Add' element={<Add point={point} adduser={adduser}/>}/>
          
-         <Route  exact path='/Save' element={<Save Spoint={point} deletes={deletes} Views={Views} edit={edit} />}/> 
+         <Route exact path='/Save' element={<Save Spoint={point} deletes={deletes} Views={Views} edit={edit} />}/> 
          <Route exact path='/Edit' element={<Edit point={point} id={id} update={update}/>}/>
          
         <Route exact path='/View' element={<View view={view}/>}/> 
@@ -128,16 +122,6 @@ history('/View')
         <Route exact path='/Price' element={<Price/>}/>
         
       </Routes>
-      
-      
-        
-      
-      
-      
-      
-      
-     
-    </div>
      
   );
 }

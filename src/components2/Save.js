@@ -9,8 +9,7 @@ import './App.css'
  
    
 return( 
-    <> 
-    <Base thead=' SAVE CONTECTS  -  India vs pakistan' tstyle='headstyle'footer='foot' children={ 
+       <Base thead=' SAVE CONTECTS  -  India vs pakistan' tstyle='headstyle'footer='foot' children={ 
         
        <div> <div className="bh" style={{gap:'20px'}}><Button onClick={()=>history('/Add1')}>add</Button>  
        <Button onClick={()=>history('/')}>Home</Button> 
@@ -27,19 +26,10 @@ return(
         <Button onClick={()=>deletes(ell.id)}>delete </Button> 
         <Button onClick={()=>Views(ell)} >view</Button>  
         <Button onClick={()=>{edit(ell.id); history('/Edit1')}}>edit</Button>  
-         
-        
-        </div>
+         </div>
         </div>)})} 
          
          </div>}>
-    </Base>
-         
-         </>  
-)
-      
-        
-
-
-} 
+    </Base>)
+      } 
 export default Save;
