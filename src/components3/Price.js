@@ -2,22 +2,22 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-import '../components/Base' 
-import Base from '../components/App.css';
+import '../components/App.css' 
+import Base from '../components/Base';
 function ListGroupWithHeaderExample() { 
     
   return (   
     <Base thead=' PRICE CHAT' tstyle='headstyle' footer='foot2' children={
     <div className='Home'>
-    
-    <Card  style={{ width: '18rem',height:"16rem" }}>
-      <Card.Header >Ticket price</Card.Header>
+  
+    <Card style={{ width: '18rem', height:"16rem" }}>
+      <Card.Header>Ticket</Card.Header>
       <ListGroup variant="flush">
-        <ListGroup.Item>Group A 500₹</ListGroup.Item>
-        <ListGroup.Item>Group B 1500₹</ListGroup.Item>
-        <ListGroup.Item>Group C 2500₹</ListGroup.Item> 
-        <ListGroup.Item>Group D 3500₹</ListGroup.Item> 
-        <ListGroup.Item>Group E 4500₹</ListGroup.Item> 
+        <ListGroup.Item> Group A -500₹</ListGroup.Item>
+        <ListGroup.Item>Group B -500₹</ListGroup.Item>
+        <ListGroup.Item>Group C -500₹</ListGroup.Item> 
+        <ListGroup.Item>Group D -500₹</ListGroup.Item> 
+        <ListGroup.Item>Group E -500₹</ListGroup.Item> 
         
         
          

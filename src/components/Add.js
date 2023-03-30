@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import React from 'react'; 
 import { useNavigate } from 'react-router-dom';
 import Base from './Base';
-import './App.css'  
+import './App.css'   
 
 
 function GridComplexExample(props) {   
