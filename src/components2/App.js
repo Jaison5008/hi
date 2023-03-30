@@ -52,14 +52,8 @@ points();
 
   }    
  
- 
-
-  
-  const update= async (index, jai2)=>{    
+   const update= async (index, jai2)=>{    
     
-    
-    
-        
     try{ 
       const response= await fetch( `https://64117ea563cb211e7e10a31d.mockapi.io/user2/${jai2.id}` , 
      {method:"PUT",body:JSON.stringify(jai2),headers:{"Content-Type":"application/json"}})
@@ -101,40 +95,15 @@ setView(el)
 history('/View')
 }  
 
-
-
-
-  
-
-
-  
-  return ( 
+return ( 
     <div>  
-      
-    
-    
-      
-      
-      
       <Routes>  
-
-                                                           
-        <Route   path='/Add1' element={<Add point={point} adduser={adduser}/>}/>
-         
+         <Route path='/Add1' element={<Add point={point} adduser={adduser}/>}/>
          <Route path='/Save1' element={<Save Spoint={point} deletes={deletes} Views={Views} edit={edit} />}/> 
          <Route path='/Edit1' element={<Edit point={point} id={id} update={update}/>}/>
-         
-        <Route path='/View1' element={<View view={view}/>}/>
+         <Route path='/View1' element={<View view={view}/>}/>
       </Routes>
       
-      
-        
-      
-      
-      
-      
-      
-     
     </div>
      
   );
