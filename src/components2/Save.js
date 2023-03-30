@@ -28,7 +28,6 @@ return(
         <Button onClick={()=>{edit(ell.id); history('/Edit1')}}>edit</Button>  
          </div>
         </div>)})} 
-         
          </div>}>
     </Base>)
       } 
